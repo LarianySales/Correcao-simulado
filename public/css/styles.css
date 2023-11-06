@@ -3,55 +3,11 @@
     margin: 0;
     padding: 0;
    box-sizing: border-box;
-   font-family: Arial, Helvetica, sans-serif;
-}
-.posts{
-    padding: 90px;
-}
-.posts{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.posts article{
-    display: flex;
-    justify-content: center;
-    gap: 4px;
-}
-.posts button{
-    border: none;
-    background: none;
-    cursor: pointer;
-    padding: 2px;
+  
 }
 
-.modal-body {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    
-}
-form{
-    display:center ;
-    justify-content: center;
-    margin:0 auto;
-}
-.modal-body form input{
-    width: 280px;
-    height: 58px;
-outline: none;
-border: none;
-background-color: #D9D9D9;
-border-radius: 10px;
-}
-.modal-body form input[type='submit']{
-    padding: 5px;
-    margin-top: 15px;
-width: 150px;
-height:50px ;
-background-color: #eb6440;
-color: #fff;
-font-size: 20px;
-font-weight: 700;
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,800&display=swap');
+body{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
 }

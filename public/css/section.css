@@ -1,0 +1,30 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+  
+}
+.posts{
+    padding: 90px;
+    width: 100%;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.posts article{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+.posts button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 2px;
+}
+

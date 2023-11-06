@@ -1,0 +1,13 @@
+footer{
+    background-color: #eb6440;
+    color: rgb(0, 0, 0);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  footer p{
+text-shadow: 2px 2px 2px rgba(0,0,0,0.27);
+font-weight: bold;
+  }

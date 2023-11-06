@@ -5,7 +5,7 @@
   transform: rotateZ(180deg);
 }
 .nav-item button[type="button"] {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
