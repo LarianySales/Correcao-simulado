@@ -1,0 +1,47 @@
+<div
+  class="modal fade"
+  id="Modalregister"
+  aria-labelledby="ModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="register-container">
+          
+          <h1>Cadastre-se</h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+
+        <form action="/register" method="post" >
+          <div class="form">
+            <label for="name">Usuário</label>
+            <input type="text" name="name" />
+          </div>
+
+          <div class="form">
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+          </div>
+
+          <div class="form">
+            <label for="password">Senha</label>
+            <input type="password" name="password" />
+          </div>
+        
+        <div class="form">
+          <label for="confirmPassword">Repita a senha</label>
+          <input type="password" name="confirmPassword" />
+        </div>
+
+        <input type="submit" value="Cadastrar" />
+</form>
+      </div>
+    </div>
+  </div>
+</div>

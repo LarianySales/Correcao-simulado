@@ -25,6 +25,11 @@ font-weight: 500;
     display: inline-block;
 
 }
+.login-container input::placeholder{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+}
+
 form input{
     border: none;
     background-color: #d9d9d9;
@@ -43,7 +48,7 @@ form input[type=submit]{
     color: #fff;
     
 }
-form input[type=text], input[type=password]{
+form input[type=text], input[type=password], input[type="email"]{
     padding: 9px;
 }
 .modal-body h3 {

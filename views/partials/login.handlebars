@@ -3,7 +3,7 @@
   class="modal fade backdrop-filter"
   id="exampleModal"
   tabindex="-1"
-  aria-labelledby="exampleModalLabel"
+  aria-labelledby="loginModal"
   aria-hidden="true"
 >
   <div class="modal-dialog">
@@ -20,12 +20,12 @@
             aria-label="Close"
           ></button>
       </div>
-          <form action="" method="post">
-            <label for="nome">Usuário</label>
-            <input type="text" name="nome" />
+          <form action="/login" method="post">
+            <label for="email">E-mail de Usuário</label>
+            <input type="email" name="email"  placeholder="Digite seu email"/>
 
             <label for="password">Senha</label>
-            <input type="password" name="password" />
+            <input type="password" name="password" placeholder="Digite sua senha" />
 
             <input type="submit" value="Entrar" />
           </form>

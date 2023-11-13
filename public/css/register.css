@@ -1,0 +1,27 @@
+.register-container{
+    display: flex;
+    justify-content: center;
+   
+}
+.form{
+ display: flex;
+ flex-direction: column;
+    margin-top: 5px;
+}
+.form input[type="email"]{
+    padding: 9px;
+}
+.register-container{
+    display: flex;
+    justify-content: space-between;
+}
+.register-container h1::before{
+    content: "";
+    padding: 2px;
+    width: 13px;
+    height: 16px;
+    border-radius: 3px;
+    background-color: #eb6440;
+    display: inline-block;
+
+}
