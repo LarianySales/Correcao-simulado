@@ -59,11 +59,18 @@ if(!passwordMatch){
   response.render("home")
 }
 request.session.UserId = user.id
+
 request.flash("message","Usuário autenticado com sucesso")
 console.log('Chegou')
+
 request.session.save(()=>{
-  response.render('home')
+  response.redirect('/')
 })
+  }
+
+  static async logout(request,response){
+request.session.destroy()
+response.redirect("/")
   }
 };
 
