@@ -3,6 +3,6 @@ const router = express.Router()
 
 const PublicationController = require("../controllers/PublicationController")
 
-router.get("/publication",PublicationController.showPublication)
+router.get("/",PublicationController.showPublication)
 
 module.exports = router

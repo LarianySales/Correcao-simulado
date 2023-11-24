@@ -1,0 +1,78 @@
+{{!-- 
+<section class="posts">
+<article>
+    <button><img src="../../assets/img/cat01.jpg" width="490px" height="800px" alt=""></button>
+    <button><img src="../../assets/img/cat02.jpg" width="490px" height="800px" alt=""></button>
+    <button><img src="../../assets/img/cat05.jpg" width="490px" height="800px" alt=""></button>
+</article>
+
+<article>
+    <button><img src="../../assets/img/cat11.jpg" width="738px" height="823px" alt=""></button>
+    <button><img src="../../assets/img/cat08.jpg" width="738px" height="823px" alt=""></button>
+</article>
+
+<article>
+    <button><img src="../../assets/img/cat04.jpg" width="1480px" height="750px" alt=""></button>
+</article>
+
+<article>
+    <button><img src="../../assets/img/cat12.jpg" width="490px" height="800px" alt=""></button>
+    <button><img src="../../assets/img/cat09.jpg" width="490px" height="800px" alt=""></button>
+    <button><img src="../../assets/img/cat06.jpg" width="490px" height="800px" alt=""></button>
+</article>
+
+<article>
+    <button><img src="../../assets/img/cat03.jpg" width="738px" height="823px"  alt=""></button>
+    <button><img src="../../assets/img/cat13.jpg" width="738px" height="823px"  alt=""></button>
+</article>
+<article>
+    <button><img src="../../assets/img/cat07.jpg" width="1480px" height="750px" alt=""></button>
+</article>
+</section>
+ --}}
+ {{!-- <div class="modal fade" id="imagemModal" tabindex="-1" aria-labelledby="imagemModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-body img-container">
+                <img src="{{publications.publication}}" alt="" id="modalImagem">
+            </div>
+
+            <form action="" method="post" id="interactionForm">
+                <div class="barra-interacao">
+                    <button type="button" class="btn btn-outline-danger">
+                        <i class="ph-fill ph-heart"></i>
+                    </button>
+
+                    <input type="text" name="comment" class="input-comentario" placeholder="Escreva um comentário">
+
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        
+        const modalTriggers = document.querySelectorAll(".modal-trigger");
+
+        modalTriggers.forEach(function (trigger){
+            trigger.addEventListener('click', function() {
+
+                const modalId = "imagemModal";
+
+                trigger.setAttribute("data-bs-target", "#" + modalId); 
+
+                document.getElementById("modalImagem").src = trigger.src;
+
+            })
+        })
+
+        var likeButton = document.querySelector(".btn-outline-danger");
+
+        likeButton.addEventListener("click", () => {
+            likeButton.classList.toggle("btn-danger");
+        });
+    })
+</script>  --}}
